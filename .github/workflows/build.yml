@@ -1,6 +1,5 @@
 name: Build
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,7 +9,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - run: chmod +x gradlew
+      - run: chmod +x ./gradlew
       - run: ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
