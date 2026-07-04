@@ -1,11 +1,4 @@
-name: Build Android APK
-on: [push]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        
-      - name: Android Build
-        uses: yuanjinsongquyi/action_android_build@v1
+- name: bleep-setup-action
+  # You may pin to the exact commit or the version.
+  # uses: bleep-build/bleep-setup-action@0a7ee84e9b61bf535f77af61921d92efaf01081d
+  uses: bleep-build/bleep-setup-action@0.0.2
