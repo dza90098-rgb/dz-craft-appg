@@ -1,0 +1,6 @@
+{
+  "name": "DZ CRAFT S1",
+  "description": "Companion and community app for the DZ CRAFT S1 Minecraft Bedrock server. Track server status, explore rules, check latest news, read FAQs, and connect with the community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
